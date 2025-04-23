@@ -1,0 +1,10 @@
+{
+  "reportArgumentType": "none",
+  "reportOperatorIssue": "none",
+  "reportGeneralTypeIssues": "none",
+  "reportAttributeAccessIssue": "none",
+  "reportUnknownMemberType": "none",
+  "reportMissingTypeStubs": "none",
+  "reportUnknownParameterType": "none",
+  "reportUnknownVariableType": "none"
+} 

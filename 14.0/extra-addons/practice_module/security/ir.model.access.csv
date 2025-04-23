@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_practice_task_user,practice.task.user,model_practice_task,base.group_user,1,1,1,1
+access_practice_task_line_user,practice.task.line.user,model_practice_task_line,base.group_user,1,1,1,1
+access_practice_tag_user,practice.tag.user,model_practice_tag,base.group_user,1,1,1,1
+access_practice_stage_user,practice.stage.user,model_practice_stage,base.group_user,1,1,1,1
