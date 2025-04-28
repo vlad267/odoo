@@ -26,7 +26,7 @@ class PracticeTask(models.Model):
     
     # Обчислювані поля
     task_count = fields.Integer(compute='_compute_task_count', string='Кількість підзавдань')
-    is_late = fields.Boolean(compute='_compute_is_late', string='Запізнено')
+    is_late = fields.Boolean(compute='_compute_is_late', string='Запізнено', store=True)
     
     # Спеціальні поля
     start_date = fields.Date('Дата початку')

@@ -19,12 +19,14 @@ services:
     volumes:
       - odoo-data:/var/lib/odoo
       - ./14.0/conf:/etc/odoo
-      - ./14.0/addons:/mnt/extra-addons
+      - ./14.0/extra-addons:/mnt/extra-addons
     environment:
       - HOST=db
       - PORT=5432
       - USER=odoo
       - PASSWORD=odoo
+      - ODOO_DEV_MODE=all
+    command: -- --dev=all
     restart: always
 
 volumes:
